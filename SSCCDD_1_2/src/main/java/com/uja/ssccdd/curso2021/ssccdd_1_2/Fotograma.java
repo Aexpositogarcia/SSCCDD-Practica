@@ -5,11 +5,14 @@
  */
 package com.uja.ssccdd.curso2021.ssccdd_1_2;
 
+import com.uja.ssccdd.curso2021.ssccdd_1_2.Hiloprincipal.CapacidadGrafica;
+
 /**
  *
  * @author alber
  */
 public class Fotograma {
+  
     private int id;
     private CapacidadGrafica capacidad;
 
@@ -40,5 +43,5 @@ public class Fotograma {
     return "Fotograma: "+id+" ,"+capacidad;
     
     }
-    
+  
 }
